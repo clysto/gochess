@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	ebiten.SetWindowSize(760*3/4, 840*3/4)
+	ebiten.SetWindowSize(760*3/4, (840+75)*3/4)
 	ebiten.SetWindowTitle("中国象棋")
 	ebiten.SetWindowResizable(true)
 
